@@ -202,7 +202,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: rgba(1, 4, 136, 0.9);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -1491,7 +1491,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgba(131, 176, 113, 0.91);
+  background: rgba(28, 96, 53, 0.91);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
