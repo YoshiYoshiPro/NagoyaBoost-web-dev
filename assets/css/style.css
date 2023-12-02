@@ -358,6 +358,7 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
   color: rgba(28, 96, 53, 0.91);
+
 }
 
 .navbar-mobile .getstarted,
@@ -413,8 +414,10 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
+  overflow: hidden;
   padding: 120px 0 0 0;
   background: url("../img/hero-bg.jpg") no-repeat;
+
   background-size: cover;
 }
 
