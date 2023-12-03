@@ -358,7 +358,6 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
   color: rgba(28, 96, 53, 0.91);
-
 }
 
 .navbar-mobile .getstarted,
@@ -419,6 +418,24 @@ h6 {
   background: url("../img/hero-bg.jpg") no-repeat;
 
   background-size: cover;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-filter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 22, 1, 0.5);
 }
 
 #hero video {
