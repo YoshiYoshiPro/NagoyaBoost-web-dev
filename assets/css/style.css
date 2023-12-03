@@ -1507,6 +1507,47 @@ section {
   background: #34e5a6;
 }
 
+.popup {
+  display: none; /* ポップアップは初めは非表示 */
+  position: fixed; /* ポップアップは画面に固定 */
+  z-index: 1; /* ポップアップは他の要素の上に表示 */
+  padding-top: 100px; /* ポップアップの位置を少し下にずらす */
+  left: 0;
+  top: 0;
+  width: 100%; /* ポップアップの幅は画面全体 */
+  height: 100%; /* ポップアップの高さは画面全体 */
+  overflow: auto; /* 必要に応じてスクロール */
+  background-color: rgb(0, 0, 0); /* 背景色 */
+  background-color: rgba(0, 0, 0, 0.4); /* 背景色（黒、半透明） */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
